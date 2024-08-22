@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-pages website design</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">     
+     <!--font awsome 5 cdn-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header class="header_wrapper">
+      <nav  nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="./assets/Rivo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars  navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+            <ul class="navbar-nav  menu-nav-bar">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Shop">Shop</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+  
+
+
+    <section id="Home" class="home">
+      <div class="banner_wrapper">
+        <div class="container">
+          <div class="row  align-items-center  flex-column-reverse  flex-md-row">
+            <div class="col-md-7  mt-sm-5  mt-md-0">
+              <h1 class="rufina-bold">Discover and Find Your Own Fashion!</h1>
+              <p class="poppins-regular">Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
+              <div class=" header_button">
+                <a href="#" class="demo-allbutton fill-btn">Explore Now</a>
+               </div>
+            </div>
+            <div class="col-md-5">
+              <div class="top-right-sec">
+                <img class="img-fluid" src="./assets/Group 47.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id=" Our clients" class="service_wrapper   wrapper">
+      <div class="container ">
+        <div class="row">
+          <div class="col-sm-12  text-center  mb-5">
+            <h2 class="roboto-slab">Best Selling</h2>
+            <h3 class="roboto-slab">Get in on the trend with our curated selection of best-selling styles.</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+              <div class="card-image-wrapper">
+                <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+              </div>
+            </div>
+            <div class="price_wrapper">
+              <h5>spread color shirt</h5>
+           <div class="amount d-flex justify-content-between px-3">
+           <h6>$38.99</h6>
+           <span>|</span>
+           <div class="star">
+            <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+           </div>
+           </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+              <div class="card-image-wrapper">
+                <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+              </div>
+            </div>
+            <div class="price_wrapper">
+              <h5>spread color shirt</h5>
+           <div class="amount d-flex justify-content-between px-3">
+           <h6>$38.99</h6>
+           <span>|</span>
+           <div class="star">
+            <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+           </div>
+           </div>
+          </div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+              <div class="card-image-wrapper">
+                <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+              </div>
+            </div>
+            <div class="price_wrapper">
+              <h5>spread color shirt</h5>
+           <div class="amount d-flex justify-content-between px-3">
+           <h6>$38.99</h6>
+           <span>|</span>
+           <div class="star">
+            <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+           </div>
+           </div>
+          </div>
+          </div>
+        </div>
+        <div class="button">
+          <a href="#" class="see-allbutton fill-btn">Get a demo <img src="./assets/Line 2.png" alt=""></a>
+         </div>
+      </div>
+    </section>
+  
+
+    <section id=" Our clients" class="service_wrapper   wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12  text-center  mb-5">
+            <h2 class="roboto-slab">Our Products</h2>
+          </div>
+          <ul class="nav nav-tabs"  id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Sale</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Hot</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">New Arrival</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Accessories</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row">
+              <div class="col-md-3 col-6 mb-4">
+                <div class="card">
+                  <div class="card-image-wrapper">
+                    <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                  </div>
+                </div>
+                <div class="price_wrapper">
+                  <h5>spread color shirt</h5>
+               <div class="amount d-flex justify-content-between px-3">
+               <h6>$38.99</h6>
+               <span>|</span>
+               <div class="star">
+                <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+               </div>
+               </div>
+              </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                <div class="card">
+                  <div class="card-image-wrapper">
+                    <img src="./assets/pexels-dima-valkov-6211614 1.png" class="img-icon" alt="">
+                  </div>
+                </div>
+                <div class="price_wrapper">
+                  <h5>spread color shirt</h5>
+                  <div class="amount d-flex justify-content-between px-3">
+               <h6>$38.99</h6>
+               <span>|</span>
+               <div class="star">
+                <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+               </div>
+               </div>
+              </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                <div class="card">
+                  <div class="card-image-wrapper">
+                    <img src="./assets/pexels-dima-valkov-6402846 1.png" class="img-icon" alt="">
+                  </div>
+                </div>
+                <div class="price_wrapper">
+                  <h5>spread color shirt</h5>
+                  <div class="amount d-flex justify-content-between px-3">
+               <h6>$38.99</h6>
+               <span>|</span>
+               <div class="star">
+                <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+               </div>
+               </div>
+              </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                <div class="card">
+                  <div class="card-image-wrapper">
+                    <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                  </div>
+                </div>
+                <div class="price_wrapper">
+                  <h5>spread color shirt</h5>
+                  <div class="amount d-flex justify-content-between px-3">
+               <h6>$38.99</h6>
+               <span>|</span>
+               <div class="star">
+                <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+               </div>
+               </div>
+              </div>
+              </div>
+              
+            </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row">
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                    <h5>spread color shirt</h5>
+                    <div class="amount d-flex justify-content-between px-3">
+                 <h6>$38.99</h6>
+                 <span>|</span>
+                 <div class="star">
+                  <h6>5.0 <i class="fas fa-star" style="color: #FFD43B;"></i></h6>
+                 </div>
+                 </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="row">
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211601 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211614 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6402846 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6402848 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-monstera-6311613 (1) 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6211614 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-dima-valkov-6402846 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-4">
+                  <div class="card">
+                    <div class="card-image-wrapper">
+                      <img src="./assets/pexels-monstera-6311613 (1) 1.png" class="img-icon" alt="">
+                    </div>
+                  </div>
+                  <div class="price_wrapper">
+                  <img src="./assets/Group 25.png" alt="">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="exclusive" class="exclusive">
+      <div class="banner_wrapper">
+        <div class="container">
+          <div class="row  align-items-center flex-md-row">
+            <div class="col-md-5">
+              <div class="top-right-sec">
+                <img class="img-fluid" src="./assets/excited-white-girl-bright-stylish-glasses-posing-pink-dreamy-curly-woman-playing-with-her-ginger-hair-laughing 1.png">
+              </div>
+            </div>
+            <div class="col-md-7  mt-sm-5  mt-md-0">
+              <h1 class="rufina-bold">Exclusive offer</h1>
+              <p class="poppins-regular">Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals</p>
+              <div class="timer d-flex gap-3">
+                <div class="days">
+                  <h1>06</h1>
+                  <p>Days</p>
+                </div>
+                <div class="days">
+                  <h1>18</h1>
+                  <p>Hours</p>
+                </div>
+                <div class="days">
+                  <h1>48</h1>
+                  <p>Min</p>
+                </div>
+              </div>
+              <div class=" bottom_button">
+                <a href="#" class="bottom-allbutton fill-btn">Buy Now</a>
+               </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id=" Our clients" class="service_wrapper   wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12  text-center  mb-5">
+            <h2 class="roboto-slab">Designer Clothes For You</h2>
+            <h3 class="roboto-slab">Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!</h3>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+              <div class="card-image-wrapper">
+                <img src="./assets/Group 55.png" class="img-icon" alt="">
+              </div>
+            </div>
+            <div class="price_wrapper">
+              <h5 class="my-3">Accessories</h5>
+              <h6>Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.</h6>
+          </div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+              <div class="card-image-wrapper">
+                <img src="./assets/vknivfu sdkvbjieurg kjvn 1.png" class="img-icon" alt="">
+              </div>
+            </div>
+            <div class="price_wrapper">
+              <h5 class="my-3">Dresses</h5>
+              <h6>Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.</h6>
+          </div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="card">
+              <div class="card-image-wrapper">
+                <img src="./assets/pexels-dima-valkov-6211617 1.png" class="img-icon" alt="">
+              </div>
+            </div>
+            <div class="price_wrapper">
+              <h5 class="my-3">Outwear</h5>
+              <h6>Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.</h6>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id=" Our clients" class="service_wrapper   wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12  text-center  mb-5">
+            <h2 class="roboto-slab">Feedback corner</h2>
+          </div>
+
+          <!-- Swiper -->
+          <div class="swiper-container" id="ka-swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                <div class="quotation">
+                  <img src="./assets/quotaion.svg" alt="">
+                </div>
+                <h2 class="my-3">Emily</h2>
+                <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!</p>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                <div class="quotation">
+                  <img src="./assets/quotaion.svg" alt="">
+                </div>
+                <h2 class="my-3">Emily</h2>
+                <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!</p>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                <div class="quotation">
+                  <img src="./assets/quotaion.svg" alt="">
+                </div>
+                <h2 class="my-3">Emily</h2>
+                <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!</p>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                <div class="quotation">
+                  <img src="./assets/quotaion.svg" alt="">
+                </div>
+                <h2 class="my-3">Emily</h2>
+                <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!</p>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                <div class="quotation">
+                  <img src="./assets/quotaion.svg" alt="">
+                </div>
+                <h2 class="my-3">Emily</h2>
+                <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!</p>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                <div class="quotation">
+                  <img src="./assets/quotaion.svg" alt="">
+                </div>
+                <h2 class="my-3">Emily</h2>
+                <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!</p>
+              </div>
+              </div>
+            
+              
+              
+              </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="footer_wrapper  mt-3  mt-md-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3  col-md-4   text-center  text-md-start ">
+          <div class="footer-logo mb-3  mb-md-0">
+            <img src="./assets/2 rivo.png" class="img-fluid">
+            <div class="social_media">
+            <h5>social media</h5>
+          </div>
+          </div>
+          <ul
+            class="list-unstyled d-flex gap-5">
+            <li>
+              <a href="#"><i class="fab fa-instagram  social_icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook  social_icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter social_icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin  social_icon"></i></a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class=" company_wrapper col-md-3 col-6 mb-4">
+          <h5>Shop</h5>
+          
+          <div class="contact-info-link">
+            <ul class="link-widget p-0">
+              <li><a href="#"><i class="fa-solid fa-angles-right" style="color: #fafafa;"></i>About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Over view</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class=" support_wrapper col-md-3 col-6 mb-4">
+          <h5>Company</h5>
+          
+          <div class="contact-info-link">
+            <ul class="link-widget p-0">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+        </div>
+              <div class="col-lg-3 col-md-4 mb-4">
+                <div class="upto_date">
+                <h5>Stay up to date</h5>
+              </div>
+              <div class="email_wrapper d-flex  justify-content-center  align-items-center">
+                <input type="email" class="form-control bg-transparent" placeholder="Enter your Email Here">
+                 <button>
+                  submit 
+                 </button>  
+              </div>
+  
+        </div>
+      </div>
+
+      <div class="row align-items-center py-5">
+        <div class="col-md-9">
+          <div class="line-div"></div>
+        </div>
+        <div class="col-md-3">
+          <div class="links-parent d-flex gap-3">
+            <a href="">Terms</a>
+            <a href="">Privcacy</a>
+            <a href="">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+</html>

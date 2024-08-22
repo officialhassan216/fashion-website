@@ -1,0 +1,214 @@
+/* Targeting various screen sizes based on max-width */
+@media (max-width: 1920px) {
+    /* CSS rules for screens up to 1920px wide */
+  }
+  
+  @media (max-width: 1600px) {
+    /* CSS rules for screens up to 1600px wide */
+    h1 {
+      font-size: 3rem;
+      line-height: 1.4;
+      font-weight: 500;
+      color: var(--primary-text);
+  }
+  h3 {
+    color: var(--primary-text);
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+h2 {
+  font-size: 3.638rem;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  /* margin-top: 1rem; */
+  color: #267D49;
+  font-family: var(--secondry-color);
+}
+}
+  
+  
+  @media (max-width: 1536px) {
+    /* CSS rules for screens up to 1536px wide */
+  }
+  
+  @media (max-width: 1440px) {
+    /* CSS rules for screens up to 1440px wide */
+  }
+  
+  @media (max-width: 1400px) {
+    /* CSS rules for screens up to 1400px wide */
+    .demo-allbutton {
+      font-size: 1.4rem;
+  }
+  .img-fluid {
+    max-width: 80.3%;
+}
+.see-allbutton {
+  font-size: 1.2rem;
+  }
+
+
+
+  .bottom-allbutton {
+    font-size: 1.2rem;
+}
+
+}
+  @media (max-width: 1366px) {
+    /* CSS rules for screens up to 1366px wide */
+  }
+  
+  @media (max-width: 1280px) {
+    /* CSS rules for screens up to 1280px wide */
+    p {
+      font-size: 1.3rem;
+  }
+   
+  h3 {
+    font-size: 1rem;
+}
+h2 {
+  font-size: 2.838rem;
+}
+.service_wrapper ul.nav-tabs {
+  margin-bottom: 3rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1.1rem;
+}
+a {
+  font-size: 1.2rem;
+}
+  }
+  
+  @media (max-width: 1024px) {
+    /* CSS rules for screens up to 1024px wide */
+    .navbar-expand-lg .navbar-nav .nav-link {
+      font-size: 1.1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+}
+p {
+  font-size: 1rem;
+}
+.email_wrapper button {
+  font-size: 23.6px;
+}
+  }
+  
+  @media (max-width: 991px) {
+    /* CSS rules for screens up to 991px wide */
+    .service_wrapper ul.nav-tabs {
+      gap: 50px;
+  }
+  .service_wrapper ul.nav-tabs {
+    margin-bottom: 2rem;
+}
+.nav-tabs .nav-link {
+  font-size: 1.3rem;
+}
+}
+    
+  @media (max-width: 800px) {
+    /* CSS rules for screens up to 800px wide */
+    .days {
+      margin: 0.3rem;
+      padding-inline: 2.2rem;
+      margin-top: 1.5rem;
+  }
+  .bottom-allbutton {
+    font-size: 1.1rem;
+    padding: 2.9rem;
+    border-radius: 0rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+    margin-left: 0.4rem;
+}
+
+  }
+  
+  @media (max-width: 767px) {
+    /* CSS rules for screens up to 767px wide */
+    .footer_wrapper ul {
+      padding-left: 10rem;
+  }
+  .footer_wrapper ul {
+    margin-bottom: 1.2rem;
+}
+  }
+  
+  @media (max-width: 600px) {
+    /* CSS rules for screens up to 600px wide */
+    .img-fluid {
+      max-width: 100%;
+  }
+  }
+  
+  @media (max-width: 540px) {
+    /* CSS rules for screens up to 540px wide */
+    .footer_wrapper ul {
+      padding-left: 7.5rem;
+  }
+  }
+  
+  @media (max-width: 480px) {
+    /* CSS rules for screens up to 480px wide */
+    h2 {
+      font-size: 1.838rem;
+  }
+  .footer_wrapper ul {
+    padding-left: 6.1rem;
+}
+  }
+  
+  @media (max-width: 425px) {
+    /* CSS rules for screens up to 425px wide */
+  }
+  
+  @media (max-width: 375px) {
+    /* CSS rules for screens up to 375px wide */
+    .footer_wrapper ul {
+      padding-left: 2.4rem;
+  }
+  
+.exclusive{
+  background-image: url(../assets/Group\ 41.png);
+  background-position: center;
+}
+
+.timer{
+  text-align: center;
+  flex-direction: column;
+}
+.footer_wrapper ul {
+  padding-left: 2.6rem;
+}
+.email_wrapper button {
+  font-size: 25px;
+}
+.nav-tabs .nav-link {
+  font-size: 1.1rem;
+}
+h5 {
+  font-size: 1.1rem;
+}
+.service_wrapper ul.nav-tabs {
+  margin-bottom: 1rem;
+}
+  }
+  
+  @media (max-width: 320px) {
+    /* CSS rules for screens up to 320px wide */
+    .footer_wrapper ul {
+      padding-left: 1.2rem;
+  }
+  }
+  
